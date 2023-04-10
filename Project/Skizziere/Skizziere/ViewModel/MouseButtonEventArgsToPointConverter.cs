@@ -5,11 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows;
-using GalaSoft.MvvmLight.Command;
 
 namespace Skizziere.ViewModel
 {
-    public class MouseButtonEventArgsToPointConverter : IEventArgsConverter
+    public class MouseButtonEventArgsToPointConverter
     {
         public object Convert(object value, object parameter)
         {
