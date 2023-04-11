@@ -1,6 +1,6 @@
 ﻿namespace Skizziere.Model.Notes
 {
-    public abstract class BasicNote
+    public abstract class BasicNote : IRectangle, IVisible
     {
         public int X { get; set; }
         public int Y { get; set; }
@@ -32,16 +32,6 @@
             Visibility = visibilityState;
         }
 
-        public bool Intersect(int x, int y)
-        {
-            return X < x && x < X + Width && Y < y && y < Y + Height;
-        }
-
-        public bool Intersect(BasicNote note)
-        {
-            return !(X + Width < note.X || note.X + note.Width < X || Y + Height < note.Y || note.Y + note.Height < Y);
-        }
-
         public void Move(int dx, int dy)
         {
             X += dx;
@@ -54,6 +44,24 @@
             Y -= dTop;
             Width += dRight;
             Height += dBottom;
+        }
+
+        public bool CheckIntersection(int x, int y)
+        {
+            return X < x && x < X + Width && Y < y && y < Y + Height;
+        }
+
+        public bool CheckIntersection(IRectangle note)
+        {
+            return !(X + Width < ((BasicNote)note).X || 
+                ((BasicNote)note).X + ((BasicNote)note).Width < X || 
+                Y + Height < ((BasicNote)note).Y || 
+                ((BasicNote)note).Y + ((BasicNote)note).Height < Y);
+        }
+
+        public void SetVisibilityState(VisibilityState visibilityState)
+        {
+            Visibility = visibilityState;
         }
     }
 }
