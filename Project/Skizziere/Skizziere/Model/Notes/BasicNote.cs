@@ -7,6 +7,9 @@
         public int Width { get; set; }
         public int Height { get; set; }
         public VisibilityState Visibility { get; set; }
+
+        public int X2 { get => X + Width; }
+        public int Y2 { get => Y + Width; }
         public string VisibilityString
         {
             get
