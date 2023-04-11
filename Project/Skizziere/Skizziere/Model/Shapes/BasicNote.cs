@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Skizziere.Model
+﻿namespace Skizziere.Model
 {
     public abstract class BasicNote
     {
@@ -38,11 +32,21 @@ namespace Skizziere.Model
             Visibility = visibilityState;
         }
 
+        public bool Intersect(int x, int y)
+        {
+            return X < x && x < X + Width && Y < y && y < Y + Height;
+        }
+        public bool Intersect(BasicNote note)
+        {
+            return !(X + Width < note.X || note.X + note.Width < X || Y + Height < note.Y || note.Y + note.Height < Y);
+        }
+
         public void Move(int dx, int dy)
         {
             X += dx;
             Y += dy;
         }
+
         public void Resize(int dLeft, int dTop, int dRight, int dBottom)
         {
             X -= dLeft;
