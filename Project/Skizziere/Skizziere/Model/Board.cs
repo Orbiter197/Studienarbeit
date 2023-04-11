@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Skizziere.Model
+﻿namespace Skizziere.Model
 {
-    internal class Board
+    public class Board
     {
+        
     }
 }

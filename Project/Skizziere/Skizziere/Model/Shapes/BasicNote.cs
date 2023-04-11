@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Skizziere.Model.Shapes
+namespace Skizziere.Model
 {
-    public abstract class BasicShape
+    public abstract class BasicNote
     {
         public int X { get; set; }
         public int Y { get; set; }
@@ -21,7 +21,7 @@ namespace Skizziere.Model.Shapes
             }
         }
 
-        public BasicShape() { 
+        public BasicNote() { 
             X = 0;
             Y = 0;
             Width = 0; 
@@ -29,7 +29,7 @@ namespace Skizziere.Model.Shapes
             Visibility = VisibilityState.Collapsed;
         }
 
-        public BasicShape(int x, int y, int width, int height, VisibilityState visibilityState)
+        public BasicNote(int x, int y, int width, int height, VisibilityState visibilityState)
         {
             X = x;
             Y = y;
