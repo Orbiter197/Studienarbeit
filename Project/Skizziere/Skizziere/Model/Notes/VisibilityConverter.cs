@@ -1,5 +1,4 @@
-﻿
-namespace Skizziere.Model
+﻿namespace Skizziere.Model.Notes
 {
     public static class VisibilityConverter
     {

@@ -1,4 +1,4 @@
-﻿namespace Skizziere.Model
+﻿namespace Skizziere.Model.Notes
 {
     public abstract class BasicNote
     {
@@ -36,6 +36,7 @@
         {
             return X < x && x < X + Width && Y < y && y < Y + Height;
         }
+
         public bool Intersect(BasicNote note)
         {
             return !(X + Width < note.X || note.X + note.Width < X || Y + Height < note.Y || note.Y + note.Height < Y);

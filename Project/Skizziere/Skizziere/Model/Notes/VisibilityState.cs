@@ -1,4 +1,4 @@
-﻿namespace Skizziere.Model
+﻿namespace Skizziere.Model.Notes
 {
     public enum VisibilityState
     {
