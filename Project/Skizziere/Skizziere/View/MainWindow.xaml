@@ -1,0 +1,34 @@
+﻿<Window x:Class="Skizziere.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Skizziere"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="White">
+    <DockPanel LastChildFill="True">
+        <StackPanel DockPanel.Dock="Top"
+                    Background="Red"
+                    Height="30"
+                    Orientation="Horizontal"/>
+        
+        <StackPanel DockPanel.Dock="Bottom"
+                    Background="Red"
+                    Height="30"
+                    Orientation="Horizontal"/>
+
+        <StackPanel DockPanel.Dock="Left"
+                    Background="Green"
+                    Width="30"
+                    Orientation="Vertical"/>
+        
+        <StackPanel DockPanel.Dock="Right"
+                    Background="Green"
+                    Width="30"
+                    Orientation="Vertical"/>
+
+        <Grid/>
+
+    </DockPanel>
+</Window>

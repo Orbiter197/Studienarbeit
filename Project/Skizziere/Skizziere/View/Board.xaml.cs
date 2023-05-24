@@ -18,9 +18,9 @@ namespace Skizziere.View
     /// <summary>
     /// Логика взаимодействия для Page1.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Board : Page
     {
-        public Page1()
+        public Board()
         {
             InitializeComponent();
         }
