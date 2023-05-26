@@ -3,17 +3,52 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Skizziere.View"
+      xmlns:local="clr-namespace:Skizziere"
+      xmlns:notes="clr-namespace:Skizziere.Model.Notes"
+      xmlns:viewModel="clr-namespace:Skizziere.ViewModel"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Background="White"
       Title="Board">
 
-    <DockPanel>
-        <Canvas>
-            
-        </Canvas>
-        
-        
+    <Page.DataContext>
+        <viewModel:BoardViewModel/>
+    </Page.DataContext>
+
+    
+    <DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Top" Background="Wheat"/>
+        <ItemsControl ItemsSource="{Binding Notes}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas/>
+                    <!--Set the Canvas as the panel for the items-->
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemContainerStyle>
+                <Style>
+                    <Setter Property="Canvas.Left" Value="{Binding X}"/>
+                    <Setter Property="Canvas.Top" Value="{Binding Y}"/>
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <ContentControl Content="{Binding}">
+                        <ContentControl.Resources>
+                            <!-- Define different data templates for different shapes -->
+
+                            <DataTemplate DataType="{x:Type notes:TextNote}">
+                                <Rectangle Width="50" Height="50" Fill="Red"/>
+                            </DataTemplate>
+                            <DataTemplate DataType="{x:Type notes:ImageNote}">
+                                <Ellipse Width="50" Height="50" Fill="Blue"/>
+                            </DataTemplate>
+                        </ContentControl.Resources>
+                    </ContentControl>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+
     </DockPanel>
 </Page>

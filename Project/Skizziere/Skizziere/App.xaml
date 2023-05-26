@@ -2,8 +2,18 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Skizziere"
-             StartupUri="MainWindow.xaml">
+             xmlns:viewModel="clr-namespace:Skizziere.ViewModel"
+             xmlns:view="clr-namespace:Skizziere.View"
+             StartupUri="View/MainWindow.xaml">
+    
     <Application.Resources>
-         
+        <DataTemplate DataType="{x:Type viewModel:MainWindowViewModel}">
+            <view:MainWindow/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModel:BoardViewModel}">
+            <view:Board/>
+        </DataTemplate>
+        
     </Application.Resources>
 </Application>
