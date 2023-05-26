@@ -1,6 +1,6 @@
 ﻿namespace Skizziere.Model.Notes
 {
-    public abstract class BasicNote : IRectangle, IVisible
+    public abstract class BasicNote : IHitBox, IVisible
     {
         public int X { get; set; }
         public int Y { get; set; }
@@ -54,7 +54,7 @@
             return X < x && x < X + Width && Y < y && y < Y + Height;
         }
 
-        public bool CheckIntersection(IRectangle note)
+        public bool CheckIntersection(IHitBox note)
         {
             return !(X + Width < ((BasicNote)note).X || 
                 ((BasicNote)note).X + ((BasicNote)note).Width < X || 
