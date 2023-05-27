@@ -15,14 +15,12 @@
         <viewModel:BoardViewModel/>
     </Page.DataContext>
 
-    
+
     <DockPanel LastChildFill="True">
-        <Button DockPanel.Dock="Top" Background="Wheat"/>
         <ItemsControl ItemsSource="{Binding Notes}">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <Canvas/>
-                    <!--Set the Canvas as the panel for the items-->
                 </ItemsPanelTemplate>
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemContainerStyle>
@@ -35,8 +33,6 @@
                 <DataTemplate>
                     <ContentControl Content="{Binding}">
                         <ContentControl.Resources>
-                            <!-- Define different data templates for different shapes -->
-
                             <DataTemplate DataType="{x:Type notes:TextNote}">
                                 <Rectangle Width="50" Height="50" Fill="Red"/>
                             </DataTemplate>

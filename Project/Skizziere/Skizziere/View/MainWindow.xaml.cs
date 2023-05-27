@@ -22,6 +22,7 @@ namespace Skizziere.View
     {
         public MainWindow()
         {
+            
             InitializeComponent();
         }
     }

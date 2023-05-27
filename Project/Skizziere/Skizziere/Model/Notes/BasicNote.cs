@@ -1,6 +1,9 @@
-﻿namespace Skizziere.Model.Notes
+﻿using PropertyChanged;
+using Skizziere.Core;
+
+namespace Skizziere.Model.Notes
 {
-    public abstract class BasicNote : IHitBox, IVisible
+    public abstract class BasicNote : ObservableObject, IHitBox, IVisible
     {
         public int X { get; set; }
         public int Y { get; set; }

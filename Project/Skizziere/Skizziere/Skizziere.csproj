@@ -8,12 +8,1406 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Fody" Version="6.6.4">
+    <None Remove="Icons\majesticons-2.1.1-png\add-column-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\add-row-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\airplane-flight-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\airplane-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\alert-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\align-bottom-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\align-horizontal-center-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\align-left-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\align-right-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\align-top-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\align-vertical-center-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\analytics-delete-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\analytics-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\analytics-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\analytics-restricted-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrow-down-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrow-down-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrow-left-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrow-left-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrow-right-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrow-right-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrow-up-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrow-up-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrows-collapse-full-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\arrows-expand-full-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\article-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\article-search-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\atom-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\attachment-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\award-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\back-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\backward-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\backward-start-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\band-aids-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\barcode-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\basket-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\bluetooth-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\bold-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\book-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\book-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\book-open-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\book-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\bookmark-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\bookmark-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\bookmark-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\box-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\briefcase-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\browser-cookie-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\browser-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\bug-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\burger-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\bus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\cake-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\calculator-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\calendar-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\calendar-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\camera-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chat-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chat-2-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chat-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chat-signal-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chat-status-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chat-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chats-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chats-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\checkbox-list-detail-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\checkbox-list-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\cheese-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chevron-down-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chevron-down-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chevron-left-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chevron-left-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chevron-right-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chevron-right-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chevron-up-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chevron-up-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\chromecast-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\church-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\clipboard-check-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\clipboard-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\clipboard-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\clipboard-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\clock-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\clock-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\close-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\cloud-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\code-block-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\code-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\coins-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\comet-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\comment-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\comment-2-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\comment-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\comment-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\comments-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\comments-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\community-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\compass-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\cookie-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\creditcard-hand-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\creditcard-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\creditcard-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\crown-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\cup-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\curly-braces-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\data-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\data-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\data-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\delete-bin-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\distribute-horizontal-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\distribute-vertical-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\divide-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\document-award-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\document-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\dollar-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\door-enter-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\door-exit-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\earth-sphere-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\edit-pen-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\edit-pen-4-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\eject-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\eraser-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\etherium-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\euro-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\eye-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\eye-off-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\ferris-wheel-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\file-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\file-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\file-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\filter-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\fish-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\flag-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\flask-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\flower-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\folder-check-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\folder-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\folder-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\folder-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\font-size-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\forward-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\forward-end-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\git-branch-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\git-commit-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\git-compare-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\git-fork-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\git-merge-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\glas-water-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\globe-earth-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\globe-earth-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\globe-grid-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\hand-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\hand-pointer-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\hand-pointer-event-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\hand-pointer-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\hard-drive-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\headset-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\heart-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\home-analytics-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\home-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\home-simple-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\image-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\image-circle-off-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\image-circle-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\image-circle-story-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\image-frame-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\image-in-picture-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\image-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\laptop-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\leaf-3-angled-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\library-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\lidquid-drop-waves-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\lifebuoy-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\lightbulb-shine-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\lightning-bolt-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\line-height-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\link-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\link-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\lira-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\list-box-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\lock-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\lock-off-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\login-half-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\login-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\logout-half-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\logout-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\mail-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\map-marker-area-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\map-marker-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\map-marker-path-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\map-marker-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\map-simple-destination-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\map-simple-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\map-simple-marker-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\map-simple-off-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\maximize-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\megaphone-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\menu-expand-left-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\menu-expand-right-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\menu-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\microphone-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\minimize-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\minus-five-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\minus-ten-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\money-hand-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\money-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\money-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\money-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\monitor-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\moon-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\more-menu-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\more-menu-vertical-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\mouse-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\multiply-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\music-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\music-note-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\next-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\note-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\note-text-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\note-text-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\noteblock-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\noteblock-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\open-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\paper-fold-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\paper-fold-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\paper-roll-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\paragraph-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\pause-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\percent-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\phone-dial-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\phone-hangup-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\phone-incoming-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\phone-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\phone-outgoing-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\phone-retro-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\phone-ring-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\pill-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\pin-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\pinwheel-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\planet-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\planet-ring-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\planet-rocket-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\play-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\playlist-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\plus-five-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\plus-minus-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\plus-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\plus-ten-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\pound-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\printer-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\pulse-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\puzzle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\qr-code-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\question-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\radio-list-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\receipt-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\redo-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\reload-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\reload-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\remove-column-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\remove-format-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\remove-row-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\repeat-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\restricted-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\robot-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\rocket-3-start-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\rubel-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\ruler-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\rupee-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\save-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\scale-light-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\scan-fingerprint-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\scan-user-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\scanner-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\scooter-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\script-prescription-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\scroll-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\scroll-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\search-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\search-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\search-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\send-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\server-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\settings-cog-check-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\settings-cog-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\settings-cog-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\share-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\share-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\shield-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\shield-off-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\shield-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\ship-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\shooting-star-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\shopping-cart-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\sim-card-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\sitemap-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\skull-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\smartphone-apps-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\speaker-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\stop-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\strike-through-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\suitcase-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\suitcase-3-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\suitcase-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\t-shirt-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\tag-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\tag-off-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\telescope-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\test-tube-filled-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\text-align-center-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\text-align-justify-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\text-align-left-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\text-align-right-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\text-wrap-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\textbox-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\textbox-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\textbox-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\ticket-check-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\ticket-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\ticket-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\tickets-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\timer-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\tooltip-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\tooltip-text-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\tooltips-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\tooltips-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\tv-old-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\umbrella-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\underline-2-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\underline-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\undo-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\unlock-open-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\usb-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\user-box-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\user-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\users-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\ux-circle-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\video-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\video-minus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\video-plus-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\view-columns-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\view-rows-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\watch-line.png" />
+    <None Remove="Icons\majesticons-2.1.1-png\yen-circle-line.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fody" Version="6.7.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\majesticons-2.1.1-png\add-column-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\add-row-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\airplane-flight-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\airplane-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\alert-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\align-bottom-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\align-horizontal-center-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\align-left-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\align-right-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\align-top-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\align-vertical-center-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\analytics-delete-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\analytics-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\analytics-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\analytics-restricted-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrow-down-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrow-down-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrow-left-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrow-left-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrow-right-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrow-right-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrow-up-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrow-up-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrows-collapse-full-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\arrows-expand-full-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\article-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\article-search-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\atom-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\attachment-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\award-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\back-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\backward-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\backward-start-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\band-aids-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\barcode-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\basket-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\bluetooth-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\bold-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\book-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\book-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\book-open-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\book-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\bookmark-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\bookmark-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\bookmark-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\box-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\briefcase-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\browser-cookie-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\browser-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\bug-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\burger-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\bus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\cake-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\calculator-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\calendar-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\calendar-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\camera-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chat-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chat-2-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chat-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chat-signal-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chat-status-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chat-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chats-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chats-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\checkbox-list-detail-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\checkbox-list-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\cheese-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chevron-down-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chevron-down-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chevron-left-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chevron-left-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chevron-right-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chevron-right-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chevron-up-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chevron-up-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\chromecast-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\church-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\clipboard-check-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\clipboard-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\clipboard-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\clipboard-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\clock-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\clock-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\close-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\cloud-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\code-block-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\code-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\coins-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\comet-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\comment-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\comment-2-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\comment-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\comment-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\comments-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\comments-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\community-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\compass-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\cookie-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\creditcard-hand-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\creditcard-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\creditcard-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\crown-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\cup-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\curly-braces-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\data-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\data-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\data-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\delete-bin-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\distribute-horizontal-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\distribute-vertical-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\divide-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\document-award-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\document-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\dollar-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\door-enter-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\door-exit-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\earth-sphere-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\edit-pen-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\edit-pen-4-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\eject-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\eraser-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\etherium-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\euro-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\eye-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\eye-off-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\ferris-wheel-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\file-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\file-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\file-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\filter-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\fish-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\flag-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\flask-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\flower-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\folder-check-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\folder-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\folder-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\folder-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\font-size-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\forward-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\forward-end-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\git-branch-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\git-commit-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\git-compare-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\git-fork-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\git-merge-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\glas-water-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\globe-earth-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\globe-earth-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\globe-grid-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\hand-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\hand-pointer-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\hand-pointer-event-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\hand-pointer-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\hard-drive-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\headset-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\heart-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\home-analytics-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\home-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\home-simple-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\image-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\image-circle-off-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\image-circle-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\image-circle-story-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\image-frame-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\image-in-picture-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\image-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\laptop-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\leaf-3-angled-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\library-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\lidquid-drop-waves-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\lifebuoy-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\lightbulb-shine-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\lightning-bolt-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\line-height-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\link-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\link-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\lira-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\list-box-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\lock-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\lock-off-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\login-half-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\login-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\logout-half-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\logout-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\mail-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\map-marker-area-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\map-marker-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\map-marker-path-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\map-marker-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\map-simple-destination-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\map-simple-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\map-simple-marker-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\map-simple-off-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\maximize-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\megaphone-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\menu-expand-left-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\menu-expand-right-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\menu-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\microphone-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\minimize-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\minus-five-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\minus-ten-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\money-hand-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\money-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\money-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\money-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\monitor-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\moon-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\more-menu-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\more-menu-vertical-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\mouse-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\multiply-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\music-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\music-note-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\next-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\note-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\note-text-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\note-text-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\noteblock-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\noteblock-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\open-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\paper-fold-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\paper-fold-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\paper-roll-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\paragraph-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\pause-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\percent-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\phone-dial-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\phone-hangup-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\phone-incoming-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\phone-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\phone-outgoing-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\phone-retro-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\phone-ring-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\pill-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\pin-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\pinwheel-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\planet-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\planet-ring-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\planet-rocket-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\play-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\playlist-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\plus-five-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\plus-minus-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\plus-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\plus-ten-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\pound-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\printer-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\pulse-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\puzzle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\qr-code-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\question-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\radio-list-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\receipt-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\redo-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\reload-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\reload-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\remove-column-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\remove-format-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\remove-row-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\repeat-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\restricted-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\robot-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\rocket-3-start-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\rubel-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\ruler-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\rupee-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\save-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\scale-light-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\scan-fingerprint-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\scan-user-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\scanner-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\scooter-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\script-prescription-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\scroll-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\scroll-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\search-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\search-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\search-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\send-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\server-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\settings-cog-check-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\settings-cog-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\settings-cog-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\share-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\share-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\shield-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\shield-off-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\shield-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\ship-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\shooting-star-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\shopping-cart-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\sim-card-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\sitemap-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\skull-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\smartphone-apps-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\speaker-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\stop-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\strike-through-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\suitcase-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\suitcase-3-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\suitcase-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\t-shirt-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\tag-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\tag-off-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\telescope-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\test-tube-filled-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\text-align-center-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\text-align-justify-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\text-align-left-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\text-align-right-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\text-wrap-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\textbox-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\textbox-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\textbox-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\ticket-check-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\ticket-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\ticket-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\tickets-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\timer-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\tooltip-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\tooltip-text-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\tooltips-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\tooltips-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\tv-old-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\umbrella-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\underline-2-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\underline-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\undo-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\unlock-open-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\usb-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\user-box-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\user-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\users-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\ux-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\video-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\video-minus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\video-plus-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\view-columns-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\view-rows-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\watch-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\majesticons-2.1.1-png\yen-circle-line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

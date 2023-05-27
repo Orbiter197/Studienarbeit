@@ -7,6 +7,16 @@
              StartupUri="View/MainWindow.xaml">
     
     <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/Colors.xaml"/>
+                <ResourceDictionary Source="Styles/Icons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        
+        
+        
+        
+        
         <DataTemplate DataType="{x:Type viewModel:MainWindowViewModel}">
             <view:MainWindow/>
         </DataTemplate>
@@ -14,6 +24,7 @@
         <DataTemplate DataType="{x:Type viewModel:BoardViewModel}">
             <view:Board/>
         </DataTemplate>
+        </ResourceDictionary>
         
     </Application.Resources>
 </Application>

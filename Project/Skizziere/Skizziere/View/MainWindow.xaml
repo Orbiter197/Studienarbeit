@@ -14,25 +14,60 @@
     </Window.DataContext>
 
     <DockPanel LastChildFill="True">
-        <StackPanel DockPanel.Dock="Top"
-                    Background="Red"
-                    Height="30"
-                    Orientation="Horizontal"/>
-        
-        <StackPanel DockPanel.Dock="Bottom"
-                    Background="Red"
-                    Height="30"
-                    Orientation="Horizontal"/>
+        <Border DockPanel.Dock="Top"
+                Background="{StaticResource BackgroundLightBrush}">
+            <StackPanel Height="30"
+                        Margin="0 0 0 2"
+                        Background="{StaticResource ThemeBlueBrush}"
+                        Orientation="Horizontal">
 
-        <StackPanel DockPanel.Dock="Left"
-                    Background="Green"
-                    Width="30"
-                    Orientation="Vertical"/>
-        
-        <StackPanel DockPanel.Dock="Right"
-                    Background="Green"
-                    Width="30"
-                    Orientation="Vertical"/>
+                <Button Width="30">
+                    <Button.Background>
+                        <ImageBrush ImageSource="{StaticResource SettingsIcon}"/>
+                    </Button.Background>
+                </Button>
+                
+                <Button Width="30"
+                        Command="{Binding NewTextNote}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="{StaticResource TextNoteIcon}"/>
+                    </Button.Background>
+                </Button>
+                
+                <Button Width="30"
+                        Command="{Binding NewImageNote}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="{StaticResource ImageNoteIcon}"/>
+                    </Button.Background>
+                </Button>
+                
+            </StackPanel>
+        </Border>
+
+
+        <Border DockPanel.Dock="Bottom"
+                Background="{StaticResource BackgroundLightBrush}">
+            <StackPanel Height="10"
+                        Margin="0 2 0 0"
+                        Background="{StaticResource ThemeBlueBrush}"
+                        Orientation="Horizontal"/>
+        </Border>
+
+        <Border DockPanel.Dock="Left"
+                Background="{StaticResource BackgroundLightBrush}">
+            <StackPanel Width="20"
+                        Margin="0 0 2 0"
+                        Background="{StaticResource ThemeBlueBrush}"
+                        Orientation="Vertical"/>
+        </Border>
+
+        <Border DockPanel.Dock="Right"
+                Background="{StaticResource BackgroundLightBrush}">
+            <StackPanel Width="20"
+                        Margin="2 0 0 0"
+                        Background="{StaticResource ThemeBlueBrush}"
+                        Orientation="Vertical"/>
+        </Border>
 
         <Border>
             <Frame Content="{Binding BoardViewModel}"/>
