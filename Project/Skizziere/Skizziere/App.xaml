@@ -21,9 +21,6 @@
             <view:MainWindow/>
         </DataTemplate>
         
-        <DataTemplate DataType="{x:Type viewModel:BoardViewModel}">
-            <view:Board/>
-        </DataTemplate>
         </ResourceDictionary>
         
     </Application.Resources>

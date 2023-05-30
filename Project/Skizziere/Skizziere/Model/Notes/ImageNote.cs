@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media.Imaging;
 
 namespace Skizziere.Model.Notes
 {
@@ -15,7 +16,7 @@ namespace Skizziere.Model.Notes
 
         public ImageNote(int x, int y, int width, int height, VisibilityState visibilityState) : base(x, y, width, height, visibilityState)
         {
-
+            image = new BitmapImage();
         }
     }
 }

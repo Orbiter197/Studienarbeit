@@ -5,6 +5,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
         xmlns:local="clr-namespace:Skizziere.View"
         xmlns:viewModel="clr-namespace:Skizziere.ViewModel"
+        xmlns:notes="clr-namespace:Skizziere.Model.Notes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         Background="White">
@@ -50,7 +51,11 @@
             <StackPanel Height="10"
                         Margin="0 2 0 0"
                         Background="{StaticResource ThemeBlueBrush}"
-                        Orientation="Horizontal"/>
+                        Orientation="Horizontal">
+                <TextBlock Text="{Binding CursorPosition}" 
+                           MouseMove="TextBlock_MouseMove"
+                           Tag="{Binding ElementName=MyCanvas}"/>
+            </StackPanel>
         </Border>
 
         <Border DockPanel.Dock="Left"
@@ -70,7 +75,39 @@
         </Border>
 
         <Border>
-            <Frame Content="{Binding BoardViewModel}"/>
+            <ItemsControl ItemsSource="{Binding Notes}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas x:Name="MyCanvas"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemContainerStyle>
+                    <Style>
+                        <Setter Property="Canvas.Left" Value="{Binding X}"/>
+                        <Setter Property="Canvas.Top" Value="{Binding Y}"/>
+                    </Style>
+                </ItemsControl.ItemContainerStyle>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <ContentControl Content="{Binding}">
+                            <ContentControl.Resources>
+                                <DataTemplate DataType="{x:Type notes:TextNote}">
+                                    <TextBox MinWidth="50"
+                                             MinHeight="20"
+                                             Width="{Binding Width}" 
+                                             Height="{Binding Height}" 
+                                             Text="{Binding Text}"/>
+                                </DataTemplate>
+                                <DataTemplate DataType="{x:Type notes:ImageNote}">
+                                    <Ellipse Width="{Binding Width}" 
+                                             Height="{Binding Height}" 
+                                             Fill="Red"/>
+                                </DataTemplate>
+                            </ContentControl.Resources>
+                        </ContentControl>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </Border>
 
     </DockPanel>

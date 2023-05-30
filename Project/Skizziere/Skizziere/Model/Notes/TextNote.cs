@@ -15,6 +15,7 @@ namespace Skizziere.Model.Notes
 
         public TextNote(int x, int y, int width, int height, VisibilityState visibilityState) : base(x, y, width, height, visibilityState)
         {
+            Text = string.Empty;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Skizziere.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,13 @@ namespace Skizziere.View
         {
             
             InitializeComponent();
+        }
+
+        private void TextBlock_MouseMove(object sender, MouseEventArgs e)
+        {
+            var vm = DataContext as MainWindowViewModel;
+            var relativeTo = (UIElement) (sender as FrameworkElement).Tag;
+            vm.UpdateCursorPosition(e, relativeTo);
         }
     }
 }

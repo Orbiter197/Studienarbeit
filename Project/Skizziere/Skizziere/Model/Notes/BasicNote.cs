@@ -1,5 +1,7 @@
 ﻿using PropertyChanged;
 using Skizziere.Core;
+using System.Drawing;
+using System.Windows.Media.Imaging;
 
 namespace Skizziere.Model.Notes
 {
@@ -9,10 +11,14 @@ namespace Skizziere.Model.Notes
         public int Y { get; set; }
         public int Width { get; set; }
         public int Height { get; set; }
-        public VisibilityState Visibility { get; set; }
-
+        public VisibilityState Visibility { get; set; } 
         public int X2 { get => X + Width; }
         public int Y2 { get => Y + Width; }
+
+        public Color BackGroundColor { get; set; }
+        public string Text { get; set; }
+        public BitmapImage image { get; set; }
+
         public string VisibilityString
         {
             get
@@ -29,7 +35,7 @@ namespace Skizziere.Model.Notes
             Visibility = VisibilityState.Collapsed;
         }
 
-        public BasicNote(int x, int y, int width, int height, VisibilityState visibilityState)
+        public BasicNote(int x, int y, int width, int height, VisibilityState visibilityState = VisibilityState.Visible)
         {
             X = x;
             Y = y;
